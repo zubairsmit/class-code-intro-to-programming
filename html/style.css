@@ -1,0 +1,82 @@
+/* body{
+    background-image: url('https://img.freepik.com/premium-photo/grainy-gradient-background-red-white-blue-colors-with-soft-faded-watercolor-border-texture_927344-24167.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+@font-face {
+    font-family:my-cartoon-font ;
+    src: url('./FEELING\ DEPRESSED.otf');
+}
+
+h3 {
+    color: red;
+}
+.container{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column-reverse;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    height: 725px;
+}
+.box{
+    width: 300px;
+    height: 25px;
+    border: 10px solid;
+    border-radius: 20px;
+    margin: 40px 0px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.box1{
+    border-color: aqua;
+}
+
+.box2{
+    border-color: chartreuse;
+}
+.box3{
+    border-color: crimson;
+}
+h1 {
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    border: 2px solid chartreuse;
+    font-family: my-cartoon-font;
+  font-size: 12px;
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  a{
+    border: 2px solid chartreuse;
+  }
+
+  ul{
+    list-style-type: upper-roman;
+  }
