@@ -43,3 +43,24 @@ function welcomeUser(){
 // addTwoNumbers();
 
 console.log('zubair')
+// ====================if else=========================
+// let raining = true;
+
+// if(raining == true){
+//    console.log("I will not go to school")
+// }else{
+//    console.log("I will go to school")
+// }
+let number = 16;
+
+if(number < 0){
+   console.log("Number is less than 0")
+}
+else if(number > 10 && number < 15){
+console.log("Number is greater than 10 but less than 15")
+}
+else{
+   console.log("Number is greater than 15")
+}
+
+
