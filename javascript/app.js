@@ -42,7 +42,7 @@ function welcomeUser(){
 }
 // addTwoNumbers();
 
-console.log('zubair')
+// console.log('zubair')
 // ====================if else=========================
 // let raining = true;
 
@@ -51,16 +51,64 @@ console.log('zubair')
 // }else{
 //    console.log("I will go to school")
 // }
-let number = 16;
+// let number = 16;
 
-if(number < 0){
-   console.log("Number is less than 0")
-}
-else if(number > 10 && number < 15){
-console.log("Number is greater than 10 but less than 15")
-}
-else{
-   console.log("Number is greater than 15")
-}
+// if(number < 0){
+//    console.log("Number is less than 0")
+// }
+// else if(number > 10 || number < 15){
+// console.log("Number is greater than 10 but less than 15")
+// }
+// else{
+//    console.log("Number is greater than 15")
+// }
 
+
+//age < 3  Your ticket is free
+//age > 3 and  age < 8  You got 30% discount on ticket
+//age === 8 or 8 >  your will charge a normal ticket price
+// age > 60  you will get 30% old benefits
+
+//loop;
+// let number = 100;
+
+// while (number > 1) {
+//    console.log(number)
+//    number--
+// }
+
+// for(let number=1; number < 100; number++){
+//    console.log("i am zubair");
+//    console.log(number)
+// }
+
+// array
+
+// let student = ["Hashim","Taha","Arsalan","Mudassir","Talha","Mustufa","Talib","Faraz"];
+
+
+// let number = 0;
+// while(number < student.length){
+//     console.log(number)
+//     console.log(student[number])
+//     if(student[number] === "Mudassir"){
+//       alert("student Found")
+//     }
+//    number++
+// }
+// console.log("student length", student.length)
+
+
+
+let stringToArray = "I am Zubair Shaikh";
+let array = ["Shamim","Aflah","Zubair"];
+// array.push("zubair")
+// array.unshift("zubair")
+// array.shift()
+// array.pop()
+let stringFromArray = array.join(" ")
+let arrayFromString = stringToArray.split(" ")
+console.log(array)
+console.log(arrayFromString)
+console.log(stringFromArray)
 
