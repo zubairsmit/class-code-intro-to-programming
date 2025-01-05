@@ -86,7 +86,7 @@ function welcomeUser(){
 
 // let student = ["Hashim","Taha","Arsalan","Mudassir","Talha","Mustufa","Talib","Faraz"];
 
-
+//  console.log(student[3])
 // let number = 0;
 // while(number < student.length){
 //     console.log(number)
@@ -106,9 +106,128 @@ let array = ["Shamim","Aflah","Zubair"];
 // array.unshift("zubair")
 // array.shift()
 // array.pop()
-let stringFromArray = array.join(" ")
-let arrayFromString = stringToArray.split(" ")
-console.log(array)
-console.log(arrayFromString)
-console.log(stringFromArray)
+// let stringFromArray = array.join(" ")
+// let arrayFromString = stringToArray.split(" ")
+// console.log(array)
+// console.log(arrayFromString)
+// console.log(stringFromArray)
+
+// let palindromeWord = "zubair";
+
+// let checkword = palindromeWord.split('').reverse().join('')
+
+// if(checkword === palindromeWord){
+//    alert("yes it is palindrome word")
+// }else{
+//    alert("It is not palindrome word")
+// }
+// console.log(checkword)
+
+let companyName = "gul ahmed";
+let companyKarachiBranch = [3,367];
+
+let company = {
+   name:"Suffah Tech",
+   address1:['street 5','plot 235','karachi'],
+   address2:['street 8','plot 290','lahore']
+}
+
+let car = {
+   name:"Volvo",
+   price:5000,
+   availableColors: ['red','white','black']
+}
+
+let cars = [
+   {
+   name:"Volvo",
+   price:5000,
+   availableColors: ['red','white','black']
+},
+{
+   name:"Fiat",
+   price:10000,
+   availableColors: ['red','white','black']
+},{
+   name:"Honda City",
+   price:1000,
+   availableColors: ['red','white','black']
+},{
+   name:"double cabin",
+   price:11000,
+   availableColors: ['black']
+},
+{
+   name:"Civic",
+   price:1000,
+   availableColors: ['black','white']
+},
+{
+   name:"corola",
+   price:1000,
+   availableColors: ['black','white']
+},{
+   item:"Brush"
+}
+]
+let i = 0;
+while(i<cars.length){
+    
+   document.getElementById('table').innerHTML += ` <tr>
+            <td>name: ${cars[i].name}</td>
+            <td>price: ${cars[i].price}</td>
+        </tr>`
+   console.log(cars[i].name)
+   console.log(cars[i].price)
+   console.log(cars[i].availableColors)
+   i++;
+}
+
+
+
+// for(let i=0; i<cars.length; i++){
+//    console.log(cars[i].name)
+//    console.log(cars[i].price)
+//    console.log(cars[i].availableColors)
+// }
+
+// console.log(cars[0].name)
+// console.log(cars[1].name)
+// console.log(cars[2].name)
+// console.log(cars[0].price)
+// console.log(cars[1].price)
+// console.log(cars[2].price)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let a = [];
+// for (let i = 0; i < 10000000; i++) {
+//     a.push({ key: i }); // Each element is an object
+// }
+// console.log(a.length);  // 10,000,000
+
+// console.log(cars)
+
+
+// console.log(car.availableColors[2])
+
+
+
 
